@@ -35,9 +35,19 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/default.css",
+	            "src/assets/css/layout.css",
+              "src/assets/css/media-queries.css",
+              "src/assets/css/magnific-popup.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.flexslider.js",
+              "src/assets/js/waypoints.js",
+              "src/assets/js/jquery.fittext.js",
+              "src/assets/js/magnific-popup.js",
+              "src/assets/js/init.js"
+            ]
           },
           "configurations": {
             "production": {

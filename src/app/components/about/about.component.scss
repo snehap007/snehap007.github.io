@@ -1,0 +1,86 @@
+$section-color1 : #f7f7f7;
+$section-color2 : #ffffff;
+
+.about-content {
+    min-height: 700px;
+    background-color: $section-color1;
+    vertical-align: middle;
+
+    .about-whoAmI-section{
+        padding: 5% 15px;
+    }
+
+    img {
+        width: 55%;
+    }
+
+    .whoAmI {
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 10%;
+    }
+
+    .about-me-section{
+        background-color: $section-color2;
+        padding: 5%;
+        display: flex;
+
+        .profile-pic{
+            width: 30%;
+
+            img {
+                width: 270px;
+                max-width: 100%;
+                height: 270px;
+                border-radius: 50%;
+                margin-left: 5%;
+            }
+        }
+
+        .about-me-description{
+            margin-left: 10%;
+            width: 70%;
+
+            .experience-section {
+                ul {
+                    margin-left: 10px;
+                  }
+            }
+        }
+    }
+    
+    .Profile-summary{
+        background-color: $section-color1;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .services {
+        padding: 5%;
+        background-color: $section-color2;
+
+        .service-desc {
+            display: flex;
+            margin: 0 15px;
+            .card {
+                background: cadetblue;
+                width: 30%;
+                height: 130px;
+                margin: 15px;
+                border-radius: 5px;
+                border: none;
+    
+                img {
+                    width: 80px;
+                    height: 80px;
+                }
+    
+                h3 {
+                    font-weight: 600;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
