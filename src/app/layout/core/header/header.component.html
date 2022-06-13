@@ -1,0 +1,24 @@
+<!-- Header
+   ================================================== -->
+   <header id="home">
+
+    <nav id="nav-wrap">
+     
+       <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+      <div class="d-flex">
+         <h3>Sneha Pawar</h3>
+         <ul id="nav" class="nav">
+            
+            <li class="current" (click)="navigateMenu('home')"><a class="smoothscroll"  [routerLink]="'/profile'">Home</a></li>
+            <li (click)="navigateMenu($event)"><a class="smoothscroll" [routerLink]="'/profile/about'">About</a></li>
+            <li><a class="smoothscroll" [routerLink]="'/profile/academic'">Academic</a></li>
+             <li><a class="smoothscroll" [routerLink]="'/profile/skills'">Skills</a></li>
+            <li><a class="smoothscroll" [routerLink]="'/profile/projects'">Projects</a></li>
+            <li><a class="smoothscroll" [routerLink]="'/profile/contact'">Contact</a></li>
+         </ul> <!-- end #nav -->
+      </div>
+     
+
+    </nav> <!-- end #nav-wrap -->
+ </header> <!-- Header End -->

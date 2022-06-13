@@ -1,0 +1,23 @@
+.skillsContainer {
+    padding: 5%;
+    background-color: #eeeeee;
+    .skillsHeader{ 
+        text-align: center;
+    }
+    .skillContent {
+        padding: 0 15px;
+        width: 100%;
+        display: flex;
+        .card {
+            margin: 15px;
+            width: 20%;
+            padding: 15px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            img {
+                text-align: center;
+                height: 120px;
+            }
+        }
+    }
+}

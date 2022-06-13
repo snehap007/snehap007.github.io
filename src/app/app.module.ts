@@ -3,16 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderComponent } from './components/header/header.component';
-import { AboutComponent } from './components/about/about.component';
-import { LayoutComponent } from './components/layout/layout.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { FooterComponent } from './components/footer/footer.component';
-import { SkillsComponent } from './components/skills/skills.component';
+import { HomeComponent } from './layout/home/home.component';
+import { HeaderComponent } from './layout/core/header/header.component';
+import { AboutComponent } from './layout/about/about.component';
+import { LayoutComponent } from './layout/layout.component';
+import { FooterComponent } from './layout/core/footer/footer.component';
+import { SkillsComponent } from './layout/skills/skills.component';
+import { ProjectsComponent } from './layout/projects/projects.component';
+import { AcademicComponent } from './layout/academic/academic.component';
+import { ContactComponent } from './layout/contact/contact.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -26,7 +29,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     AboutComponent,
     LayoutComponent,
     FooterComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectsComponent,
+    AcademicComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
